@@ -1,5 +1,5 @@
 
-# 插入一百万条数据
+# 插入一百万条个人信息数据
 import random
 from faker import Faker
 import psycopg2
@@ -22,3 +22,5 @@ while True:
         cur.execute("INSERT INTO info VALUES (%s,%s,%s,%s,%s,%s,%s)",(name,age,gender(),month,birthday,province,job[:20]))
         conn.commit()
         print('提交成功')
+
+## 往postgresql中插入30条数据
