@@ -176,7 +176,7 @@ class BiliibiliSpider:
                 'geetest_slider_button'
                 )
         except Exception as e:
-            print('获取滑块失败')
+            print('获取滑块失败',e)
         # 将滑块移动到缺口处
         self.move_button(element,trace)
         
