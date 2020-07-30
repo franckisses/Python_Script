@@ -23,6 +23,6 @@ while True:
             switch(people,People.Weekend)
         if i == 1:
             switch(people,People.Workday)
-    people.day()
+#    people.day()
 
 # 是python 2  中的方法。python3 不适用，可以理解思想
